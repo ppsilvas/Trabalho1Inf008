@@ -4,13 +4,17 @@ import java.io.UnsupportedEncodingException;
 import java.security.NoSuchAlgorithmException;
 import java.security.spec.InvalidKeySpecException;
 
+private enum Type{
+    Client, administrator;
+}
+
 public class User {
     private int id;
     private String name;
     private String email;
     private String password;
     private static int numberOfUsers = 0;
-    private Enum type;
+    private Type type;
 
     public User(){
 

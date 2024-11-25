@@ -29,13 +29,4 @@ public class main {
             user.showUser();
         }
     }
-
-    // public static void main(String[] args) throws UnsupportedEncodingException, NoSuchAlgorithmException {
-    //     String senha = "admin";
-
-    //     MessageDigest algorithim = MessageDigest.getInstance("MD5");
-    //     byte[] messageDigest = algorithim.digest(senha.getBytes("UTF-8"));
-
-    //     System.out.println(messageDigest);
-    // }
 }
