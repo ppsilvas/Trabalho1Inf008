@@ -31,9 +31,5 @@ public class Hash {
         }
         String hashed = hexString.toString();
         return hashed;  
-    //    MessageDigest algorithm = MessageDigest.getInstance("MD5");
-    //    byte messageDigest[] = algorithm.digest(password.getBytes("UTF-8"));
-
-    //     return messageDigest;
     }
 }
